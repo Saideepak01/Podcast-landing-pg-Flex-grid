@@ -1,0 +1,149 @@
+body{
+    background-color: #111725;
+    font-family: 'Chivo', sans-serif;
+}
+.mainbdy{
+    height: 100vh;
+}
+.logo{
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+.card{
+    background-color: white;
+    width: 40rem;
+    margin-left: 5rem;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    position: relative;
+    top: 7rem;
+    box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+}
+.toptxt{
+    color: #52E6AC;
+    font-size: 2rem;
+}
+.black{
+    color: black;
+}
+.para{
+    width: 24.5rem;
+    padding-bottom: 2rem;
+}
+form{
+    padding-bottom: 2rem;
+}
+input[type=text]{
+    background: grey;
+    border-radius: 50px;
+    border: 0;
+    height: 3rem;
+    width: 20rem;
+    box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px 0px rgba(0,0,0,0.75);
+}
+input[type=text]:focus{
+    background: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+    padding-left: 2rem;
+    font-family: 'Chivo', sans-serif;
+}
+form > button{
+    font-family: 'Chivo', sans-serif;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 50px;
+    border: 0;
+    font-size: 0.7rem;
+    background-color: #52E6AC;
+    position: relative;
+    left: -8.8rem;
+    top: -0.11rem;
+    font-weight: bold;
+}
+form > button:hover{
+    background: linear-gradient(to right top, #52e6ac, #3baf82, #247c5a, #104c35, #002114);
+    color: white;
+    transition: all 1s;
+}
+.indent{
+    padding-right: 1rem;
+}
+.bgimg{
+    position: relative;
+    top: -25rem;
+    left: 35rem;
+    z-index: -1;
+}
+.mobimg{
+    display: none;
+}
+@media(max-width:700px){
+    body{
+        background: white;
+    }
+    .logo{
+        position: relative;
+        left: 9rem;
+    }
+    .bgimg{
+        display: none;
+    }
+    .mobimg{
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        top: -44rem;
+        z-index: -1;
+        filter: brightness(50%);
+    }
+    .card{
+        background: none;
+        width: 425px;
+        height: 634px;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+    .toptxt{
+        text-align: center;
+        position: relative;
+        left: -5.8rem;
+    }
+    .black{
+        color: white;
+    }
+    .para{
+        text-align: center;
+        color: rgb(207, 207, 207);
+        position: relative;
+        left: -5rem;
+    }
+    input[type=text]{
+        position: relative;
+        left: -3rem;
+    }
+    form > button{
+        height: 3rem;
+        width: 20rem;
+        font-size: 1rem;
+        position: relative;
+        top: 1rem;
+        left: -3rem;
+    }
+    .symbols{
+        position: relative;
+        left: -5rem;
+        padding-top: 1rem;
+    }
+    .indent{
+        height: 19px;
+    }
